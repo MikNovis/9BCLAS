@@ -1,0 +1,137 @@
+body{
+    background-color: gray;
+    background-image: url(Pictures/BackMikl.png);
+}
+
+.life{
+    background-image: url(Pictures/BackMikl.png);
+    font: 600 20px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.host{
+    font: 600 20px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+}
+
+.Maintext{
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.information{
+    background-color: rgb(44, 44, 44);
+    
+    display: flex;
+    border-radius: 20px;
+
+}
+
+.information img{
+    border-radius: 20px;
+
+}
+
+.information h3{
+    margin-left: 20px;
+
+
+}
+
+.space{
+    margin-top: 50px;
+}
+
+.Maintext img{
+    border-radius: 20px;
+    background: rgb(255, 255, 255); /* Цвет фона */
+    box-shadow: 5px 5px 3px rgb(165, 63, 255); /* Параметры тени */
+    padding: 5px;
+}
+
+.Greet{
+    margin-left: 7%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(44, 44, 44);
+    box-shadow: 0px 10px 10px rgb(165, 63, 255);
+    
+    
+}
+
+.line{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    max-width: 96%;
+    margin: auto;
+    box-shadow:0px 5px 7px rgb(165, 63, 255); ;
+
+    
+}
+
+
+
+
+
+.parts{
+    margin-left: 30px;
+}
+
+.panel{
+    font: 600 23px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 100%;
+    /*background-color:rgb(65, 0, 157);*/
+    background-image: url(Pictures/Miklbackpanel.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.panel div{ 
+    margin: 0 30px ;
+
+}
+
+.panel img{
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+
+
+.panel a:hover{
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.panel a{
+    color: white;
+    text-decoration: none;
+}
+
+.connection{
+    position: fixed;
+    top: 460px;
+    left: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+.Vlad{
+    margin-left: 30%;
+    
+
+}
+
+.Vlad img{
+    border-radius: 50%;
+
+}

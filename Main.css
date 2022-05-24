@@ -1,0 +1,135 @@
+body{
+    background-color: gray;
+    background-image: url(Pictures/Back.png);
+}
+
+.life{
+    background-image: url(Pictures/Back.png);
+    font: 600 20px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.host{
+    font: 600 20px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 80%;
+    margin: auto;
+}
+
+.Maintext{
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.Greet{
+    margin-left: 7%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: blanchedalmond;
+}
+
+.line{
+    border-bottom: 4px solid rgb(255, 145, 0);
+
+    
+}
+
+.news{
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+.news img{
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.students{
+    display: flex;
+    background-color:blanchedalmond;
+    border-radius: 20px;
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    padding-right: 20px;
+
+
+
+
+}
+
+.students img{
+    max-height: fit-content;
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.parts{
+    margin-left: 30px;
+}
+
+
+.panel{
+    font: 600 23px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 132, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.panel div{ 
+    margin: 0 30px ;
+
+}
+
+.panel img{
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.students a:hover{
+    color:rgb(179, 86, 0) ;
+    
+}
+
+.students a{
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+
+}
+
+.students a:visited{
+    text-decoration: none;
+}
+
+.panel a:hover{
+    color: antiquewhite;
+}
+
+.panel a{
+    color: white;
+    text-decoration: none;
+}
+
+.connection{
+    position: fixed;
+    top: 460px;
+    left: 3px;
+    width: 50px;
+    height: 50px;
+}
